@@ -1,0 +1,141 @@
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /*width: 100vw;
+    height: 100vh;*/
+    /*
+    display: flex;
+    */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.first {
+    /*
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    */
+    margin: auto;
+    display: flex;
+    /*
+    align-items: center;
+    justify-content: center;
+    */
+}
+
+.second {
+    padding: 0;
+    margin: 0;
+    /*width: 100vw;
+    height: 100vh;*/
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    width: 600px;
+    height: 50px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#instructions {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    /*
+    display: inline-block;
+    */
+    margin: 5px;
+    border-radius: 50%;
+    border: 5px solid darkcyan;
+}
+    
+.one {
+    background-color: red;
+}
+    
+.two {
+    background-color: orange;
+}
+    
+.three {
+    background-color: yellow;
+}
+    
+.four {
+    background-color: green;
+}
+    
+.five {
+    background-color: blue;
+}
+    
+.six {
+    background-color: purple;
+}
+    
+.seven {
+    background-color: grey;
+}
+    
+.nine {
+    background-color: white;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    border-radius: 25px;
+    background-color: deepskyblue;
+    border: 10px solid indigo;
+    /*position: absolute;*/
+    position: relative;
+    /*top: 100px;*/
+    margin: 0 auto;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    */
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid darkcyan;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+#title {
+    font-family: "Lucida Console", "Courier New", fantasy;
+    font-size: 60px;
+    color: green;
+}
